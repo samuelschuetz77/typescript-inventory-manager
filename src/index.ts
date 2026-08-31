@@ -8,7 +8,7 @@ for (const product of products) {
 }
 
 console.log("=== INVENTORY VALUE ===");
-console.log(`$${calculateInventoryValue(products).toFixed(2)}`);
+console.log(`$${calculateInventoryValue(products).toFixed(2)}`); //rounded to 2 decimals 
 console.log("");
 
 console.log("=== LOW STOCK ===");
